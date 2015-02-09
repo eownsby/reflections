@@ -29,4 +29,9 @@ How do the diagrams help you visualize the branch structure?
 
      Diagrams help you identify where branches last touch and to visually organize the new
      features, experiements, and other separate sub-projects on your project.
-    
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+     As a result of the merging of two branches, you end up with one branch with two different
+     paths back through the parents.  You also end up with one head instead of two.
