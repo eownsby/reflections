@@ -24,3 +24,9 @@ How would branches help?
 
      Branches can keep track of different experimental features or can give you the ability
      to create different versions of the same product.
+
+How do the diagrams help you visualize the branch structure?
+
+     Diagrams help you identify where branches last touch and to visually organize the new
+     features, experiements, and other separate sub-projects on your project.
+    
