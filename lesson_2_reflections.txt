@@ -12,3 +12,15 @@ What value do you think it offers?
 	You must address all the files that might have been part of this change, so it
 	probably helps with your thought processes while programming (did I make the changes
 	I needed to in all the files?)
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    The staging area can hold the specific files with the specific changes that you want
+    for one commit.  Using the git diff commands on the staging area can assure that you
+    do have a logical change to commit.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+     Branches can keep track of different experimental features or can give you the ability
+     to create different versions of the same product.
