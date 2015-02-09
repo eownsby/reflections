@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+     
+     When you initialize a repository, a hidden file is created to hold and
+     track all of the commits.  There must be an identifiable place for git
+     to manage your commits.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	The staging area marks your files as a package for commit.  One value to this
+	this is that you can commit only the appropriate files for that commit
+	You must address all the files that might have been part of this change, so it
+	probably helps with your thought processes while programming (did I make the changes
+	I needed to in all the files?)
