@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was very helpful to have diff find the differences.
+    You still have to work out what are appropriate diffences versus 
+    unintenional ones.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having this access maked is easier to identify why you made a specific change
+    or choice.  It could make back-tracking to an earlier version much easier.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The autosaves in Google are arbitrary and do not make logical sense.  In addition,
+    there are probably too many versions created of the document.Although it 
+    protects you from forgetting to save changes.  A manual save allows you to commit
+    changes at logical points.  In addtions, Google is online only for viewing previous
+    changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The command "git log" allows you to see the general log of the changes.  You must
+    be in the repository (folder) to run the command.  Included in the information is
+    the ID of the version along with date, time, author, and a commit description.
+    The log allows you to find the correct ID of specific commits.
+
+    The "git diff" command compares two commits of a repository to identify the
+    differences.  The IDs from running the "git log" command are used in the "gi
+    diff" command to identify the commits to compare. The command is actually 
+    "git diff old_file new_file."
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    When it is relatively easy to go back in time, especially when these snapshots in
+    time cover all the appropriate files, it is less scary to make changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using it for my next project and for my application development at work.
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+git init (to create a new repository)
+git status (for status)
+get reset (to remove a file from the staging area)
+get add "file" (to add a file to the staging area, to mark it to commit)
