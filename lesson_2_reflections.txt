@@ -35,3 +35,12 @@ diagram the way we do?
 
      As a result of the merging of two branches, you end up with one branch with two different
      paths back through the parents.  You also end up with one head instead of two.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+      The huge pro of Git's automatic mergins is how easily it can compare large swaths of code
+      It would be difficult otherwise to compare.  It only merges when things are straightforward
+      and marks what looks like the obvious conflicts.  Merging manually takes time and lots of 
+      effort.  The hard part of Git's automatic merges is trying to deconflict any issues that 
+      arise.  It takes time to understand what Git is identifying as the problem when
+      the problem may be somewhere else.
