@@ -60,3 +60,15 @@ get reset (to remove a file from the staging area)
 get add "file" (to add a file to the staging area, to mark it to commit)
 git diff --staged (to see the difference between staged and last committed files)
 git reset --hard (gets rid of any changes in working area or staging area)
+git branch (to list all the branches)
+get branch "branchname" (creates a new branch)
+git checkout "branchname" (switches to a different branch)
+git log --graph --oneline "branch name branch name" (to show the different branches and what commits have occurred in each)
+git checkout -b branchname (the equivelant of two commands: git branch branchname and git checkout branchname ) Good for creating new features.
+git merge master branchname (to merge a branch into the master)
+git show ID (to show the difference between a particular commit and its parent (sometimes confusion after a merge))
+git remote (to show all the remote repositories, works like get status
+git remote add origin (origin usual for one remote) name
+git remote -v (verbose)
+git push origin (common) master (branch you are pushing)
+
